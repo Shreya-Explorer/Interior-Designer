@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", serif;
+}
+
+
+
+
+.main{
+    margin-left: 600px;
+    margin-top: 10px;
+    display: flex;
+    color: red;
+    
+}
+
+.art-grid{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+.album-cards {
+    display: ;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+.package1{
+    margin: 10px;
+    background-color:lavender;
+    display: flex;
+    margin-right: 100px;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+.img-radius{
+    border-radius: 300px;
+    padding: 10px;
+    
+}
+.package2{
+    margin-left: 10px;
+}
+
+
+.btn-primary{
+    width: 100px;
+    border: none;
+    background-color: rgb(240, 109, 109);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    background-color: black;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+}
